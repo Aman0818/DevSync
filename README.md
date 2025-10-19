@@ -32,32 +32,34 @@ It includes multiple interactive sections — **Hero**, **Features**, **Pricing*
 
 ## 🗂️ Project Structure
 
-src/
-├── assets/ # Static assets (images, icons, etc.)
-├── components/ # Reusable UI components
-│ ├── Footer/
-│ ├── Navbar/
-│ ├── SectionTitle/
-│ └── TestimonialCard/
-├── data/ # Static data sources
-│ ├── companiesLogo.js
-│ ├── faqsData.js
-│ ├── navLinks.js
-│ ├── pricingData.js
-│ └── testimonialsData.js
-├── pages/ # Page-level components
-│ └── Home/
-├── sections/ # Distinct landing page sections
-│ ├── BottomBanner/
-│ ├── FaqSection/
-│ ├── FeaturesSection/
-│ ├── HeroSection/
-│ ├── Pricing/
-│ ├── Testimonials/
-│ └── TrustedCompanies/
-├── App.jsx # Root component
-└── main.jsx # Entry point
 
+```text
+src/
+├── assets/              # Static assets (images, icons, etc.)
+├── components/          # Reusable UI components
+│   ├── Footer/
+│   ├── Navbar/
+│   ├── SectionTitle/
+│   └── TestimonialCard/
+├── data/                # Static data sources
+│   ├── companiesLogo.js
+│   ├── faqsData.js
+│   ├── navLinks.js
+│   ├── pricingData.js
+│   └── testimonialsData.js
+├── pages/               # Page-level components
+│   └── Home/
+├── sections/            # Distinct landing page sections
+│   ├── BottomBanner/
+│   ├── FaqSection/
+│   ├── FeaturesSection/
+│   ├── HeroSection/
+│   ├── Pricing/
+│   ├── Testimonials/
+│   └── TrustedCompanies/
+├── App.jsx              # Root component
+└── main.jsx             # Entry point
+```
 
 🧠 **Note:** This project includes a GitHub Actions workflow (`.github/workflows/ci.yml`) for automated linting and build checks on each push.
 
@@ -86,69 +88,81 @@ npm run dev
 yarn dev
 
 
-The app will run locally at http://localhost:5173
 
-📜 Available Scripts
-Command	Description
-npm run dev	Start development server
-npm run build	Build project for production
-npm run lint	Run ESLint for code quality
-npm run preview	Preview production build locally
-🧩 Component Overview
-Component	Description
-Navbar	Fully responsive header with dynamic navigation
-HeroSection	Engaging entry section with CTA
-FeaturesSection	Showcases product features and benefits
-Pricing	Interactive pricing plans with tiers
-Testimonials	Displays real or mock user feedback
-FAQ	Expandable list of common questions
-TrustedCompanies	Logo showcase of partners or clients
-Footer	Comprehensive footer with social and quick links
-🎨 Customization
+The app will run locally at: `http://localhost:5173`
 
-The project uses TailwindCSS for rapid UI design.
+---
 
-Modify global styles → tailwind.config.js
+## 📜 Available Scripts
 
-Component-specific tweaks → Inside individual component files
+| Command           | Description                        |
+|-------------------|------------------------------------|
+| npm run dev       | Start development server           |
+| npm run build     | Build project for production       |
+| npm run lint      | Run ESLint for code quality        |
+| npm run preview   | Preview production build locally   |
 
-You can also integrate your own theme or custom fonts easily.
+---
 
-🧰 Developer Experience
+## 🧩 Component Overview
 
-Pre-configured ESLint and Prettier for clean code
+| Component         | Description                                      |
+|-------------------|--------------------------------------------------|
+| Navbar            | Fully responsive header with dynamic navigation   |
+| HeroSection       | Engaging entry section with CTA                   |
+| FeaturesSection   | Showcases product features and benefits           |
+| Pricing           | Interactive pricing plans with tiers              |
+| Testimonials      | Displays real or mock user feedback               |
+| FAQ               | Expandable list of common questions               |
+| TrustedCompanies  | Logo showcase of partners or clients              |
+| Footer            | Comprehensive footer with social and quick links  |
 
-Modular component design for reusability
+---
 
-Modern tooling: Hot Module Reloading, Vite Dev Server, and Optimised Production Builds
+## 🎨 Customization
 
-Includes CI workflow for automated linting and build checks
+- The project uses **TailwindCSS** for rapid UI design.
+- Modify global styles in `tailwind.config.js`.
+- Component-specific tweaks can be made inside individual component files.
+- You can also integrate your own theme or custom fonts easily.
 
-🧪 Future Enhancements (Optional Roadmap)
+---
 
- Add dark mode toggle
+## 🧰 Developer Experience
 
- Add contact form with backend integration
+- Pre-configured ESLint and Prettier for clean code
+- Modular component design for reusability
+- Modern tooling: Hot Module Reloading, Vite Dev Server, and Optimised Production Builds
+- Includes CI workflow for automated linting and build checks
 
- Implement AOS scroll animations
+---
 
- Add CMS (e.g., Sanity / Contentful) support
+## 🧪 Future Enhancements (Optional Roadmap)
 
- Multi-language (i18n) support
+- Add dark mode toggle
+- Add contact form with backend integration
+- Implement AOS scroll animations
+- Add CMS (e.g., Sanity / Contentful) support
+- Multi-language (i18n) support
 
-🤝 Contributing
+---
+
+## 🤝 Contributing
 
 Contributions, suggestions, and feature requests are welcome!
 Feel free to fork this repository, raise issues, or submit pull requests.
 
-🧑‍💻 Author
+---
 
-Aman Mishra
-📍 NIT Agartala
-🔗 LinkedIn
- | GitHub
+## 🧑‍💻 Author
 
-📄 License
+**Aman Mishra**  
+📍 NIT Agartala  
+[LinkedIn](#) | [GitHub](#)
+
+---
+
+## 📄 License
 
 This project is licensed under the MIT License — feel free to use and modify it for learning or production purposes.
 
