@@ -5,7 +5,6 @@ import { navLinks } from "../data/navLinks";
 
 export default function Navbar() {
     const [openMobileMenu, setOpenMobileMenu] = useState(false);
-    const pathname = useLocation().pathname;
 
     useEffect(() => {
         if (openMobileMenu) {

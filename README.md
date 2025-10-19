@@ -1,4 +1,4 @@
-# 🚀 DevSync — Modern React Landing Page
+# DevSync 
 
 A **modern, responsive, and production-ready landing page** built with **React**, **Vite**, and **TailwindCSS**.  
 It includes multiple interactive sections — **Hero**, **Features**, **Pricing**, **Testimonials**, **FAQ**, and more — all designed with clean architecture and reusability in mind.
